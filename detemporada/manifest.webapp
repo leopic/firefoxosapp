@@ -1,0 +1,15 @@
+{
+	"version": 0.1,
+	"name": "frutas de temporada",
+	"description": "es un intento de un app para firefox",
+	"launch_path": "index.html",
+	"icons": {
+		"256": "/images/icon.png"
+	},
+	"developer": {
+		"name": "Leo Picado",
+		"url": "http//leonardopicado.com"
+	},
+	"default_locale": "es",
+	"type": "privileged"
+}

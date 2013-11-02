@@ -1,0 +1,74 @@
+<html>
+<head>
+	<title>De temporada</title>
+	 <meta name="viewport" content="width=device-width, initial-scale=1"> 
+     <link rel="stylesheet" href="libs/jquery.mobile-1.3.2.min.css" />
+     <script src="libs/jquery-1.9.1.min.js"></script>
+     <script src="libs/jquery.mobile-1.3.2.min.js"></script>
+     <script src="scripts/lib.js"></script> 
+     <style>
+      img {
+        max-width: 80%;
+      }
+     </style>     
+</head>
+<body>
+ <div id="page" data-role="page">
+  <div data-role="header" style="background: url('http://th06.deviantart.net/fs70/PRE/i/2013/108/5/7/costa_rica_grunge_flag_by_syndikata_np-d6256ao.jpg') center center;">
+    <h1>De Temporada</h1>
+  </div>
+  <div data-role="content">
+    <h1 id="temporada-estado-texto">Esta temporada</h1>
+    <h5><a id="remover-filtros-btn">todas?</a></h5>
+    <ul data-role="listview" data-filter="true" data-filter-placeholder="Filtrar por frutas">
+        <li data-temporada="invierno" class="js-item" class="js-item"><a href="#carambola">Carambola</a></li>
+        <li data-temporada="verano" class="js-item"><a href="#nueces">Nueces de macadamia</a></li>
+        <li data-temporada="invierno" class="js-item"><a href="#pejibaye">Pejibaye</a></li>
+        <li data-temporada="verano" class="js-item"><a href="#carambola">Guayaba</a></li>
+        <li data-temporada="invierno" class="js-item"><a href="#nueces">Jocotes</a></li>
+        <li data-temporada="verano" class="js-item"><a href="#pejibaye">Mango</a></li>
+        <li data-temporada="invierno" class="js-item"><a href="#carambola">Cas</a></li>
+        <li data-temporada="verano" class="js-item"><a href="">Papaya</a></li>
+        <li data-temporada="invierno" class="js-item"><a href="">Guaba</a></li>
+        <li data-temporada="verano" class="js-item"><a href="">Plátano</a></li>
+        <li data-temporada="invierno" class="js-item"><a href="">Marañon</a></li>
+        <li data-temporada="verano" class="js-item"><a href="">Aguacate</a></li>
+        <li data-temporada="invierno" class="js-item"><a href="">Mamon chino</a></li>
+        <li data-temporada="verano" class="js-item"><a href="">Yuca</a></li>
+        <li data-temporada="invierno" class="js-item"><a href="">Jengibre</a></li>
+        <li data-temporada="verano" class="js-item"><a href="">Tiquisque</a></li>        
+    </ul>
+  </div>
+ </div>
+ <div id="carambola" data-role="page" data-add-back-btn="true">
+   <div data-role="header">
+   <a href="#page">< Back</a>
+    <h1>Carambola</h1>
+  </div>
+  <div data-role="content">
+  <img src="http://www.fao.org/inpho_archive/content/documents/vlibrary/ae620s/pfrescos/CARAMBOLA.JPG" alt="Carambola">
+    <p>orem ipsum dolor sit amet, consectetur adipiscing elit. Maecenas a vestibulum sem. Quisque tincidunt sapien massa, at pellentesque est lacinia sed. Nulla viverra quam sem, a consectetur neque imperdiet vitae. Aenean vitae cursus nibh. Sed at adipiscing massa. Nulla imperdiet diam sapien, quis porttitor enim egestas at. Nulla eu turpis in enim cursus viverra. Nulla facilisi. Nullam imperdiet at tortor nec pellentesque. Proin blandit leo nibh, sit amet ultricies quam venenatis non. Suspendisse porttitor, eros et ultrices feugiat, magna sem sagittis ante, vel gravida turpis massa vel nibh. Ut vel tortor vel risus posuere imperdiet. Aenean eu nunc quis nunc ultricies lacinia. Mauris imperdiet pharetra nisi, sed auctor ipsum aliquam at. Vivamus in ultrices leo. Nam aliquet tristique dui.</p>
+  </div>
+ </div>
+ <div id="nueces" data-role="page" data-add-back-btn="true">
+   <div data-role="header">
+   <a href="#page">< Back</a>
+    <h1>Nueces</h1>
+  </div>
+  <div data-role="content">
+  <img src="http://www.downunderenterprises.com/macadamia-nuts.jpg" alt="nueces">
+    <p>Sed at adipiscing massa. Nulla imperdiet diam sapien, quis porttitor enim egestas at. Nulla eu turpis in enim cursus viverra. Nulla facilisi. Nullam imperdiet at tortor nec pellentesque. Proin blandit leo nibh, sit amet ultricies quam venenatis non. Suspendisse porttitor, eros et ultrices feugiat, magna sem sagittis ante, vel gravida turpis massa vel nibh. Ut vel tortor vel risus posuere imperdiet. Aenean eu nunc quis nunc ultricies lacinia. Mauris imperdiet pharetra nisi, sed auctor ipsum aliquam at. Vivamus in ultrices leo. Nam aliquet tristique dui.</p>
+  </div>
+ </div>
+ <div id="pejibaye" data-role="page" data-add-back-btn="true">
+   <div data-role="header">
+   <a href="#page">< Back</a>
+    <h1>Pejibaye</h1>
+  </div>
+  <div data-role="content">
+  <img src="http://www.lucema.com/sites/default/files/noticias/Pejibaye_pic_smaller.jpg" alt="pejibaye">
+    <p>Suspendisse porttitor, eros et ultrices feugiat, magna sem sagittis ante, vel gravida turpis massa vel nibh. Ut vel tortor vel risus posuere imperdiet. Aenean eu nunc quis nunc ultricies lacinia. Mauris imperdiet pharetra nisi, sed auctor ipsum aliquam at. Vivamus in ultrices leo. Nam aliquet tristique dui.</p>
+  </div>
+ </div>  
+</body>
+</html>

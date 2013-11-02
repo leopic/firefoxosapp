@@ -12,7 +12,7 @@
 	},
 
 	"default_locale": "es",
-	"type" : "privileged",
+	"type": "privileged",
 	"permissions":{
 		"geolocation":{
 			"description" : "Locates the user"

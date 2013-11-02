@@ -1,0 +1,20 @@
+{
+	"version": 0.1,
+	"name": "hola mudo",
+	"description": "es un intento de un app para firefox",
+	"launch_path": "list.html",
+	"icons": {
+		"40": "/images/icon.jpg"
+	},
+	"developer": {
+		"name": "Leo Picado",
+		"url": "http//leonardopicado.com"
+	},
+	"default_locale": "es",
+	"type": "privileged",
+	"permission": {
+		"systemXHR": {
+			"description": "Makes requests"
+		}
+	}
+}
