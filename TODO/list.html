@@ -1,0 +1,27 @@
+<html>
+<head>
+	<title>Todo List</title>
+	 <meta name="viewport" content="width=device-width, initial-scale=1"> 
+     <link rel="stylesheet" href="http://code.jquery.com/mobile/1.3.2/jquery.mobile-1.3.2.min.css" />
+     <script src="http://code.jquery.com/jquery-1.9.1.min.js"></script>
+     <script src="http://code.jquery.com/mobile/1.3.2/jquery.mobile-1.3.2.min.js"></script>
+     <script src="scripts/lib.js"></script>
+</head>
+
+<body>
+ <div id = "list" data-role = "page">
+  <div data-role = "header">
+    <h1>Todo List</h1>
+  </div>
+  <div data-role = "content">
+    <form id = "frmList" method = "post">
+      <input id = "txtTask" type = "text" placeholder = "Escribe una tarea:"/>
+      <input id = "btnTask" type = "button" value = "Agregar"/>
+    </form>
+    <ul id = "tasks" data-role = "listview" data-inset = "true">
+
+    </ul>
+  </div>
+ </div>
+</body>
+</html>

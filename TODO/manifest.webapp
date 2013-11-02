@@ -1,0 +1,24 @@
+{
+	"version":1.0,
+	"name":"Todo",
+	"description":"This app manages tasks",
+        "launch_path": "list.html",
+	"icons":{
+       "40": "/images/icon.jpg"
+	},
+
+	"developer":{
+		"name":"David Mora",
+		"url": "site.com"
+	},
+
+	"default_locale": "es",
+	"type" : "privileged",
+	"permissions":{
+		"systemXHR" : {
+			"description" : "Makes requests"
+		}
+	}
+
+
+}

@@ -1,0 +1,27 @@
+{
+	"version":1.0,
+	"name":"Trackify",
+	"description":"This app tracks the user's location",
+	"icons":{
+       "40": "/images/icon.png"
+	},
+
+	"developer":{
+		"name":"David Mora",
+		"url": "site.com"
+	},
+
+	"default_locale": "es",
+	"type" : "privileged",
+	"permissions":{
+		"geolocation":{
+			"description" : "Locates the user"
+		},
+
+		"systemXHR" : {
+			"description" : "Makes requests"
+		}
+	}
+
+
+}
